@@ -1,0 +1,28 @@
+{
+  "name": "easy-module-loader",
+  "version": "0.0.1",
+  "description": "Easy and dynamic module loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy",
+    "module",
+    "loader",
+    "simple",
+    "dynamic",
+    "path"
+  ],
+  "dependencies": {
+    "rreaddir-sync": "1.0.x",
+    "upath": "0.1.x"
+  },
+  "author": "German Velazquez",
+  "license": "ISC",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
