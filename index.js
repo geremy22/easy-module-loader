@@ -24,7 +24,7 @@ function EModLoader(options){
 	}
 
 	this.loadModules = function(path, callback){
-		getModules(path).forEach((m)=>{callback(m.path, m.module)});
+		this.getModules(path).forEach((m)=>{callback(m.path, m.module)});
 	}
 }
 var exp = (options)=>new EModLoader(options);
