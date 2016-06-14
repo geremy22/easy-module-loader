@@ -39,6 +39,8 @@ By default, an EModLoader will use NodeJS `require` function to load each JS fil
 Options object may have the following properties:
 * `options.requirer` (Function(absPath)) This function will receive each absolute path and must resolve and return the module object, by default will use NodeJS `require` function.
 * `options.filter` (RegExp) This RegExp will filter each file path who should be loaded, by default will filter all JS files: /.*\.js$/
+* `options.order` (Function(before,after)) Basic order function, used for `Array#sort` the list of paths. By default will order alphabetically: (b,a)=>b>a;
+* `options.depth` (Number) Number indicating how deep you want to list. See [rreaddir-sync](https://github.com/geremy22/rreaddir-sync#arguments)
 
 ###Reference
 * `EModLoader#getModules(dirPath)` Retrieves an array of modules (see [module object](#module-object)) included in `dirPath` and all sub-directories, according to EModLoader options.
