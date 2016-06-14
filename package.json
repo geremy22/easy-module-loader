@@ -19,6 +19,20 @@
     "upath": "0.1.x"
   },
   "author": "German Velazquez",
+  "homepage": "https://github.com/geremy22/easy-module-loader#readme",
+  "bugs": {
+    "url": "https://github.com/geremy22/easy-module-loader/issues"
+  },
+  "maintainers": [
+    {
+      "email": "germanmanuelvelazquez@gmail.com",
+      "name": "germagik"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geremy22/easy-module-loader.git"
+  },
   "license": "ISC",
   "files": [
     "LICENSE",
